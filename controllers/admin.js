@@ -9,7 +9,6 @@ exports.getAddProduct = (req, res, next) => {
     path: "/admin/add-product",
     editing: false,
     isAuthenticated: req.session.isLoggedIn
-    
   })
 }
 
